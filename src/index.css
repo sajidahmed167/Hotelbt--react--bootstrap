@@ -1,13 +1,258 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.zindex{
+  z-index: 100;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navfont{
+  font-size: 18px; 
+}
+
+.headingfont{
+  font-size: 60px;
+}
+
+.placeholder{
+  padding-top: 80px;
+}
+
+.placeholder2{
+  padding-top: 55px;
+}
+
+.white{
+  color: white;
+  background-color: #212529;
+}
+
+.white2bg{
+  background-color: #fff;
+  color: #212529;
+}
+
+.primary2bg{
+  background-color: #f7c08a;
+  color: #212529;
+}
+
+.hov:hover{
+  background-color: #f7c08a
+}
+
+
+.box{
+  float: left;
+  width: 33.333%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box1{
+  float: left;
+  width: 33.333%;
+  height: auto;
+  padding: 80px;
+  text-align: center;
+}
+
+
+
+.gridfooter{
+  display: flex;
+}
+
+.img2{
+  border-radius: 100%;
+  max-width:400px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #212529;
+  color: #f7c08a;
+}
+
+.text-primary1 {
+  color: #f7c08a;
+}
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+.img3{
+  max-width: 2500px;
+  width: 100%;
+  height: autos;
+  
+}
+
+.testimonialimg{
+  border-radius: 100%;
+  width: 200px;
+  height: auto;
+}
+.gridaboutbody{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.gridaboutbody2{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 0px;
+
+}
+
+.bg1-primary {
+  background-color: #f7c08a;
+  color: black;
+}
+
+.textalign{
+  text-align: center;
+}
+
+#testimonials {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+#testimonials .testimonial {
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+
+
+#showcase {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 70vh;
+}
+
+
+.p1{
+  font-size: 18px;
+}
+
+.p2{
+  font-size: 20px;
+}
+
+.headingabout{
+  color: white;
+  text-align: center;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+
+  .headingfont{
+      font-size: 40px;
+  }
+
+  .grid3{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  .dispnone{
+      display: none;
+  }
+  
+  .box1{
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  text-align: center;
+  }
+
+  .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+
+
+  .gridfooter{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+  }
+
+  
+
+  .gridaboutbody2{
+      display: grid;
+      justify-content: center;
+      grid-template-columns: auto;
+      grid-column-gap: none;
+      grid-row-gap: 30px;
+  }
+
+  .box{
+      float: none;
+      width: auto;
+      padding: 50px;
+      text-align: center;
+  }
+
+  .gridaboutbody{
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 1fr;
+      grid-column-gap: none;
+      grid-row-gap: 30px;
+  }
+
+  .testimonialimg{
+      width: 100px;
+  }
+
+  #testimonials {
+      height: 115%;
+      
+  }
+
+  .p1{
+      font-size: 14px;
+  }
+  
+  .p2{
+      font-size: 14px;
+  }
+
+  #testimonials .testimonial {
+      padding: 20px;
+      margin-bottom: 40px;
+      border-radius: 5px;
+      opacity: 0.8;
+  }
+
+
 }
