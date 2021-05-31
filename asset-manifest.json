@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Hotelbt--react--bootstrap/static/css/main.8d328e52.chunk.css",
+    "main.js": "/Hotelbt--react--bootstrap/static/js/main.900116af.chunk.js",
+    "main.js.map": "/Hotelbt--react--bootstrap/static/js/main.900116af.chunk.js.map",
+    "runtime-main.js": "/Hotelbt--react--bootstrap/static/js/runtime-main.56689b07.js",
+    "runtime-main.js.map": "/Hotelbt--react--bootstrap/static/js/runtime-main.56689b07.js.map",
+    "static/js/2.02e41eb5.chunk.js": "/Hotelbt--react--bootstrap/static/js/2.02e41eb5.chunk.js",
+    "static/js/2.02e41eb5.chunk.js.map": "/Hotelbt--react--bootstrap/static/js/2.02e41eb5.chunk.js.map",
+    "static/js/3.610357c5.chunk.js": "/Hotelbt--react--bootstrap/static/js/3.610357c5.chunk.js",
+    "static/js/3.610357c5.chunk.js.map": "/Hotelbt--react--bootstrap/static/js/3.610357c5.chunk.js.map",
+    "index.html": "/Hotelbt--react--bootstrap/index.html",
+    "static/css/main.8d328e52.chunk.css.map": "/Hotelbt--react--bootstrap/static/css/main.8d328e52.chunk.css.map",
+    "static/js/2.02e41eb5.chunk.js.LICENSE.txt": "/Hotelbt--react--bootstrap/static/js/2.02e41eb5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56689b07.js",
+    "static/js/2.02e41eb5.chunk.js",
+    "static/css/main.8d328e52.chunk.css",
+    "static/js/main.900116af.chunk.js"
+  ]
+}
